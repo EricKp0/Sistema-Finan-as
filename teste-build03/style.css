@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    font-family: "Raleway",sans-serif;
+    font-size: 36px;
+    color: #000000;
+}
+
+
+.background {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-size: cover;
+    background-image: url(IMGs/Area.jpg);
+}
+
+.container {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario_p {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 200px;
+}
+
+button[type="submit"] {
+    margin-left: 150px;
+}
+
+
+
+#cadastro_de_hospedes {
+    text-align: center;
+}
+
+#botao_consultar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Lista de Hóspedes */
+#botao_voltar_menu {
+    text-align: center;
+}
