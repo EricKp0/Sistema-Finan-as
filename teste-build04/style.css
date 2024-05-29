@@ -1,0 +1,216 @@
+h1 {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    color: #000000;
+}
+
+.background {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(IMGs/Area.jpg);
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container button {
+    border: none;
+    background-color: rgb(52, 255, 120);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: rgb(25, 204, 159);
+    color: white;
+}
+
+.formulario_p {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(23, 123, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 5px;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+input[type="text"],
+input[type="number"] {
+    width: 200px;
+}
+
+button[type="submit"] {
+    margin-left: 150px;
+}
+
+#cadastro_de_hospedes {
+    text-align: center;
+}
+
+#botao_consultar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Lista de hóspedes */
+
+#lista_hospedes {
+    padding: 20px;
+    list-style-type: none;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#lista_hospedes li {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+#lista_hospedes li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+#lista_hospedes strong {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#lista_hospedes input[type="text"],
+#lista_hospedes input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 5px 0;
+    border: 2px solid rgb(23, 123, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#lista_hospedes button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+#lista_hospedes button:hover {
+    background-color: #0056b3;
+}
+
+#lista_hospedes hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+#botao_consultar button {
+    background-color: rgb(23, 123, 255);
+    height: 50px;
+    color: white; 
+    border: none; 
+    padding: 10px 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+}
+
+#botao_consultar button:hover {
+    background-color: rgb(16, 66, 133);
+}
+
+
+#botao_voltar_menu {
+    text-align: center;
+}
+
+#botao_voltar_menu button {
+    border-width: 1px;
+    border-color: #e7e300;
+    padding: 10px;
+    width: 180px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    background-color: rgb(255, 255, 30);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#botao_voltar_menu button:hover {
+    background-color: rgb(209, 209, 0);
+}
+
+#botao_limpar_dados {
+    text-align: center;
+}
+
+#botao_limpar_dados button {
+    border: none;
+    padding: 10px;
+    width: 140px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    background-color: rgb(255, 69, 69);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#botao_limpar_dados button:hover {
+    background-color: rgb(180, 19, 19);
+}
+
+#lista_hospedes {
+    padding: 20px;
+    list-style-type: none;
+}
